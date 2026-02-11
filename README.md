@@ -1,1 +1,1 @@
-# thomasissigma.com
+# everymath
