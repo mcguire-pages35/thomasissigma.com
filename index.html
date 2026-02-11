@@ -1,146 +1,39 @@
-		   <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Unblocked Games</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #0f172a;
-      color: #e5e7eb;
-    }
+		   <!doctype html>
 
-    header {
-      background: #020617;
-      padding: 20px;
-      text-align: center;
-    }
+<html>
+    <head>
+        <meta charset="utf-8">
 
-    h1 {
-      margin: 0;
-      color: #38bdf8;
-    }
+        <title>everymathindex</title>
 
-    .search {
-      margin: 20px auto;
-      max-width: 400px;
-      text-align: center;
-    }
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
 
-    .search input {
-      width: 100%;
-      padding: 10px;
-      font-size: 16px;
-      border-radius: 6px;
-      border: none;
-    }
+    </head>
 
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-    }
+    <body style="background-color:green;"">
+    
+        <h1>EVERYMATH</h1>
+        <p>Made by the same creator who made thomasissigma</p>
 
-    .category {
-      margin-bottom: 30px;
-    }
+        <p>Popular Games:</p>
+        
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+        <p><a href="https://xoriushourz.github.io/CookieClicker/" target"_blank">Cookie Clicker</a></p>
+        <p><a href="https://xoriushourz.github.io/HappyWheels/" target"_blank">Happy Wheels</a></p>
+        <p><a href="https://charliedayfockens-hue.github.io/coolsciencegames/assets/Gunspin.html" target"_blank">Gunspin</a></p>
+        <p><a href="https://charliedayfockens-hue.github.io/coolsciencegames/assets/Granny.html" target"_blank">Granny</a></p>
 
-    .category h2 {
-      border-bottom: 2px solid #1e293b;
-      padding-bottom: 5px;
-      color: #7dd3fc;
-    }
 
-    .games {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 15px;
-      margin-top: 15px;
-    }
+        <p>Less Popular Games:</p>
 
-    .game {
-      background: #020617;
-      padding: 15px;
-      border-radius: 8px;
-      text-align: center;
-      transition: transform 0.2s, background 0.2s;
-    }
 
-    .game:hover {
-      background: #1e293b;
-      transform: scale(1.05);
-    }
+        <p><a href="https://charliedayfockens-hue.github.io/coolsciencegames/assets/Tunnel%20Rush.html" target"_blank">Tunnel Rush</a></p>
+        <p><a href="https://charliedayfockens-hue.github.io/coolsciencegames/assets/Cluster%20Truck.html" target"_blank">Cluster Rush</a></p>
+        <p><a href="https://charliedayfockens-hue.github.io/coolsciencegames/assets/Run%203.html" target"_blank">Run 3</a></p>
 
-    .game a {
-      text-decoration: none;
-      color: #e5e7eb;
-      font-weight: bold;
-    }
+        
+    </body>
 
-    footer {
-      text-align: center;
-      padding: 15px;
-      font-size: 14px;
-      color: #94a3b8;
-    }
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>Unblocked Games</h1>
-  <p>Play anywhere 🚀</p>
-</header>
-
-<div class="search">
-  <input type="text" id="searchInput" placeholder="Search games..." onkeyup="searchGames()">
-</div>
-
-<div class="container">
-
-  <div class="category">
-    <h2>Action</h2>
-    <div class="games">
-      <div class="game"><a href="games/slope.html">Slope</a></div>
-      <div class="game"><a href="games/run-3.html">Run 3</a></div>
-      <div class="game"><a href="games/1v1.lol.html">1v1.lol></a></div>
-  </div>
-
-  <div class="category">
-    <h2>Sports</h2>
-    <div class="games">
-      <div class="game"><a href="games/retro-bowl.html">Retro Bowl</a></div>
-      <div class="game"><a href="games/basketball-stars.html">Basketball Stars</a></div>
-    </div>
-  </div>
-
-  <div class="category">
-    <h2>Puzzle / Retro</h2>
-    <div class="games">
-      <div class="game"><a href="games/tetris.html">Tetris</a></div>
-      <div class="game"><a href="games/pacman.html">Pac-Man</a></div>
-    </div>
-  </div>
-
-</div>
-
-<footer>
-  © 2026 Unblocked Games | Hosted on GitHub Pages
-</footer>
-
-<script>
-  function searchGames() {
-    const input = document.getElementById("searchInput").value.toLowerCase();
-    const games = document.querySelectorAll(".game");
-
-    games.forEach(game => {
-      const text = game.innerText.toLowerCase();
-      game.style.display = text.includes(input) ? "block" : "none";
-    });
-  }
-</script>
-
-</body>
 </html>
